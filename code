@@ -1,0 +1,12 @@
+total_sum = 0
+print("Введите символы. Для завершения нажмите Esc.")
+
+import msvcrt  # для Windows
+
+while True:
+    ch = msvcrt.getch()
+    if ch == b'\x1b':  # Esc
+        break
+    total_sum += ord(ch)
+
+print("Сумма кодов всех введённых символов:", total_sum)
