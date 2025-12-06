@@ -9,3 +9,4 @@ while True:
         total_sum += ord(ch)
 
 print("Сумма кодов всех введённых символов:", total_sum)
+1234
