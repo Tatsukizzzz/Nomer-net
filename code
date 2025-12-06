@@ -8,4 +8,4 @@ while True:
     for ch in line:
         total_sum += ord(ch)
 
-print("Сумма кодов всех введённых символов:", total_sum)
+print("Сумма кодов всех введённых символов:", total_sum) #вывод 
