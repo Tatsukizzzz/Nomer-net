@@ -1,5 +1,5 @@
 total_sum = 0
-print("Введите символы. Для завершения просто нажмите Enter.")
+print("Введите символы. Для завершения просто нажмите Enter.") #запрос данных
 
 while True:
     line = input()
@@ -9,4 +9,3 @@ while True:
         total_sum += ord(ch)
 
 print("Сумма кодов всех введённых символов:", total_sum)
-1234
